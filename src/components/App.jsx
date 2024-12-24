@@ -15,7 +15,7 @@ export default function App() {
           path="/"
           element={
             <ItemListContainer
-              greeting="Welcome to PowerTechnology!"
+              greeting="Bienvenido a PowerTechnology!"
               setCartCount={setCartCount}
             />
           }
@@ -24,7 +24,7 @@ export default function App() {
           path="/category/:categoryId"
           element={
             <ItemListContainer
-              greeting="Category Products"
+              greeting="Categoria"
               setCartCount={setCartCount}
             />
           }
